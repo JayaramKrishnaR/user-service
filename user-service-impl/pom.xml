@@ -5,8 +5,16 @@
         <groupId>com.movie-ticket-booking</groupId>
         <artifactId>user-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>user-service-impl</artifactId>
-    <name>Archetype - user-service-impl</name>
-    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.movie-ticket-booking</groupId>
+            <artifactId>user-service-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>

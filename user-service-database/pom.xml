@@ -5,8 +5,14 @@
         <groupId>com.movie-ticket-booking</groupId>
         <artifactId>user-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>user-service-database</artifactId>
-    <name>Archetype - user-service-database</name>
-    <url>http://maven.apache.org</url>
+
+<!--    <dependencies>-->
+<!--        <dependency>-->
+<!--            <groupId>org.flywaydb</groupId>-->
+<!--            <artifactId>flyway-core</artifactId>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
 </project>
